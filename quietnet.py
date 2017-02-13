@@ -8,7 +8,7 @@ except NameError: pass
 
 # split something into chunks
 def chunks(l, n):
-    for i in xrange(0, len(l), n):
+    for i in range(0, len(l), n):
         yield l[i:i+n]
 
 def unpack(buffer):
